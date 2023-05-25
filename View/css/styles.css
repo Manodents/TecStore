@@ -1,0 +1,74 @@
+/* Estilos para o cabeçalho */
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    height: 10vh;
+    width: 100vw;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  
+  .navbar-nav .active {
+    font-weight: bold;
+  }
+  
+  /* Estilos para o Jumbotron */
+  .jumbotron {
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .jumbotron h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron p {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  /* Estilos para a seção de serviços */
+  .col-sm-4 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .col-sm-4 h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .col-sm-4 p {
+    font-size: 18px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 70px 0;
+    margin-left: 70px;
+    margin-right: 150px;    
+  }
+  
+
+  .col-sm-5 p {
+    font-size: 18px;
+    margin-left: 70px;
+    margin-right: 150px;
+  }
+
+  /* pagina inicial */
